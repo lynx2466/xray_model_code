@@ -1,0 +1,25 @@
+names:
+- 0- Aortic enlargement
+- 1- Atelectasis
+- 10- Pleural effusion
+- 11- Pleural thickening
+- 12- Pneumothorax
+- 13- Pulmonary fibrosis
+- 2- Calcification
+- 3- Cardiomegaly
+- 4- Consolidation
+- 5- ILD
+- 6- Infiltration
+- 7- Lung Opacity
+- 8- Nodule-Mass
+- 9- Other lesion
+nc: 14
+roboflow:
+  license: Private
+  project: chest-xray-yolo
+  url: https://universe.roboflow.com/xrdaas/chest-xray-yolo/dataset/4
+  version: 4
+  workspace: xrdaas
+test: ../test/images
+train: ../train/images
+val: ../valid/images
